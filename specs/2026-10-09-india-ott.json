@@ -1,0 +1,14 @@
+{
+  "kicker": "INDIA OTT  ·  2026",
+  "headline": ["The audience is here.", "The paying habit isn't."],
+  "heroes": [
+    {"value": "664.9M", "label": "people watch OTT  (≈45% of India)", "bar": 1.0, "accent": false},
+    {"value": "172.6M", "label": "active paid subscriptions, bundles included", "bar": 0.26, "accent": true}
+  ],
+  "tiles": [
+    {"big": "+60%", "line1": "Connected TV users", "line2": "206.9M"},
+    {"big": "+50%", "line1": "Micro-drama viewers", "line2": "fastest genre"},
+    {"big": "14.9 hrs", "line1": "video per viewer", "line2": "every week"}
+  ],
+  "source": "Ormax OTT Audience Report 2026"
+}
