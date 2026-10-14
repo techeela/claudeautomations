@@ -1,0 +1,11 @@
+{
+  "topic": "jailer2-ott-window",
+  "layout": "split",
+  "theme": "light",
+  "kicker": "INDIAN CINEMA  ·  THEATRE TO OTT",
+  "headline": ["Jailer 2 opens Oct 15.", "How long until it streams?"],
+  "left": {"tag": "Multiplex norm", "value": "8 weeks", "label": "Usual gap PVR INOX and Cinepolis keep for Hindi films before OTT"},
+  "right": {"tag": "Jailer 2 (reported)", "value": "4 weeks", "label": "Streaming in all languages within four weeks of release", "accent": true},
+  "delta": "Half the wait",
+  "source": "The Week, ETV Bharat, NewsBytes (Oct 2026); Sacnilk"
+}
