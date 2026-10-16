@@ -1,0 +1,16 @@
+{
+  "topic": "epf-wage-ceiling",
+  "layout": "timeline",
+  "theme": "ink",
+  "kicker": "PAYROLL  ·  INDIA SMBs  ·  2026",
+  "headline": ["One pay month,", "two PF rules"],
+  "events": [
+    {"when": "1–16 Sep 2026", "text": "PF wage ceiling at ₹15,000 a month"},
+    {"when": "17 Sep 2026", "text": "Ceiling raised to ₹25,000, effective the same day", "accent": true},
+    {"when": "13 Oct 2026", "text": "EPFO extends the September ECR deadline"},
+    {"when": "15 Oct 2026", "text": "Original due date for September ECR and PF payment"},
+    {"when": "31 Oct 2026", "text": "New deadline, for the September wage month only", "accent": true}
+  ],
+  "note": "51 lakh+ more employees expected under PF coverage",
+  "source": "Business Standard, CAclubindia, BDO, Moneylife (2026)"
+}
