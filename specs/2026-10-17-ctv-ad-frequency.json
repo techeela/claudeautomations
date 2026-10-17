@@ -1,0 +1,15 @@
+{
+  "topic": "ctv-ad-frequency",
+  "layout": "ranking",
+  "theme": "light",
+  "kicker": "INDIA CONNECTED TV  ·  SEPT 2026",
+  "headline": ["Ads outran the homes", "CTV in India, Aug to Sept"],
+  "unit": "Month-on-month change, September vs August 2026",
+  "rows": [
+    {"label": "Ad impressions (9.7B)", "value": "+73.2%", "bar": 1.0, "accent": true},
+    {"label": "Impressions per home (~121)", "value": "+61%", "bar": 0.83},
+    {"label": "Active advertisers (1,283)", "value": "+19.5%", "bar": 0.27},
+    {"label": "Active CTV homes (80.3M)", "value": "+7.6%", "bar": 0.10}
+  ],
+  "source": "Chrome DM via Storyboard18, Oct 2026"
+}
