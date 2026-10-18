@@ -1,0 +1,22 @@
+{
+  "topic": "ai-licensing",
+  "layout": "split",
+  "theme": "ink",
+  "kicker": "MEDIA + AI  ·  COPYRIGHT  ·  OCT 2026",
+  "headline": [
+    "Who licenses India's",
+    "content to AI?"
+  ],
+  "left": {
+    "tag": "DPIIT working paper",
+    "value": "Mandatory",
+    "label": "Proposed licence for AI training, with royalties for commercial use"
+  },
+  "right": {
+    "tag": "CII white paper",
+    "value": "Voluntary",
+    "label": "Licensing as the default, confirmed within the first six months",
+    "accent": true
+  },
+  "source": "CII via exchange4media, Indiantelevision (Oct 2026)"
+}
