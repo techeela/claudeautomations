@@ -1,0 +1,35 @@
+{
+  "topic": "india-microdrama",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "INDIA OTT  ·  MICRODRAMAS  ·  OCT 2026",
+  "headline": [
+    "Microdramas find brands",
+    "before they find ads"
+  ],
+  "events": [
+    {
+      "when": "Sep 2026 · Redseer",
+      "text": "FY26 microdrama ads: ~₹24 cr of a ~₹2,300 cr market"
+    },
+    {
+      "when": "12 Oct",
+      "text": "ChatGPT India releases The Grand Return"
+    },
+    {
+      "when": "12 Oct",
+      "text": "BULLET's Deadline wins India round of AACA's first micro-drama award"
+    },
+    {
+      "when": "15 Oct",
+      "text": "ZEE-backed BULLET signs Vitrina to scout markets outside India"
+    },
+    {
+      "when": "FY32 · Redseer projection",
+      "text": "Microdrama ad revenue projected at ₹5,000–5,500 cr",
+      "accent": true
+    }
+  ],
+  "note": "Today: 15–17M average monthly paying users (Redseer)",
+  "source": "Redseer; BestMediaInfo; MediaBrief; MediaNews4U · 2026"
+}
