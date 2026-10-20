@@ -1,0 +1,17 @@
+{
+  "topic": "abp-shorts-desk",
+  "layout": "stats",
+  "theme": "light",
+  "kicker": "INDIA TV NEWS  ·  DIGITAL DESK",
+  "headline": ["A 9-second clip,", "three jobs lost"],
+  "heroes": [
+    {"value": "~9 sec", "label": "ABP digital video found factually incorrect, 17 Oct", "accent": true},
+    {"value": "3", "label": "Digital staff terminated, incl. Shorts shift in-charge"}
+  ],
+  "tiles": [
+    {"big": "17 Oct", "line1": "ABP apologises", "line2": "on X"},
+    {"big": "2 days", "line1": "Apology to", "line2": "terminations"},
+    {"big": "15 days", "line1": "NCW asks MIB for", "line2": "action-taken report"}
+  ],
+  "source": "BestMediaInfo, exchange4media, Samachar4media · Oct 2026"
+}
