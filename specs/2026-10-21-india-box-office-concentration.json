@@ -1,0 +1,22 @@
+{
+  "topic": "india-box-office-concentration",
+  "layout": "split",
+  "theme": "light",
+  "kicker": "INDIA BOX OFFICE  ·  SEPTEMBER 2026",
+  "headline": [
+    "Five films took",
+    "most of September"
+  ],
+  "left": {
+    "tag": "Top 5 films",
+    "value": "64%",
+    "label": "of India's ₹1,144 crore September gross, led by Mirzapur: The Movie"
+  },
+  "right": {
+    "tag": "Every other film",
+    "value": "36%",
+    "label": "shared by every other release in the month",
+    "accent": true
+  },
+  "source": "Ormax Media via Indian Broadcasting World, 17 Oct 2026"
+}
