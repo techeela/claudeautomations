@@ -1,0 +1,17 @@
+{
+  "topic": "hoichoi-cac",
+  "layout": "stats",
+  "theme": "light",
+  "kicker": "REGIONAL OTT  ·  BENGALI  ·  OCT 2026",
+  "headline": ["What hoichoi spends", "to win a subscriber"],
+  "heroes": [
+    {"value": "30%", "label": "hoichoi's cap on user acquisition, as a share of subscription revenue", "bar": 0.30, "accent": true},
+    {"value": "70–80%", "label": "what many other OTT players spend, per hoichoi's COO", "bar": 0.75, "accent": false}
+  ],
+  "tiles": [
+    {"big": "2 yrs", "line1": "P&L and cash", "line2": "profitable"},
+    {"big": "60–65%", "line1": "of revenue from", "line2": "subscriptions"},
+    {"big": "~30%", "line1": "expected yearly", "line2": "subscription growth"}
+  ],
+  "source": "afaqs, 5 Oct 2026 (hoichoi interview)"
+}
