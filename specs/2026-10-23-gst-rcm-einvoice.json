@@ -1,0 +1,11 @@
+{
+  "topic": "gst-rcm-einvoice",
+  "layout": "quote",
+  "theme": "ink",
+  "kicker": "GST  ·  E-INVOICING  ·  SMB COMPLIANCE",
+  "headline": ["E-invoicing moves to", "the purchase side"],
+  "quote": "For the first time, businesses will be required to generate e-invoices on specified purchase transactions",
+  "by": "Vivek Jalan, Tax Connect Advisory, to Business Standard",
+  "stat": {"value": "₹5 crore", "label": "turnover line the GSTN advisory targets (sandbox only)"},
+  "source": "GSTN advisory, 16 Oct 2026; Business Standard, 22 Oct 2026"
+}
