@@ -3,7 +3,19 @@
 Usage: python render.py specs/2026-10-12-india-ctv.json  -> cards/2026-10-12-india-ctv.png
 
 Every spec has: "kicker", "headline" (1-2 lines, <= 28 chars each), "source".
-Optional: "layout" (default "stats"), "theme" ("dark" default, "light", "ink").
+Optional: "layout" (default "stats"), "theme".
+
+Themes
+  Classic (flat):  "dark" (default), "light", "ink"
+  Bold news style (colourful gradient background, yellow top banner, highlighted headline,
+  inspired by Instagram news cards):  "pop" (purple->pink), "ocean" (navy->teal),
+  "sunset" (crimson->orange), "forest" (deep green->emerald).
+  In the bold themes:
+    - "kicker" becomes the yellow banner text, so keep it short and punchy (<= 22 chars),
+      e.g. "OTT NUMBERS!", "LATEST NEWS!", "BOX OFFICE WEEK"
+    - wrap words in *asterisks* in a headline line to highlight them in yellow,
+      e.g. ["One ₹200 top-up", "now carries *22+ OTT apps*"]
+    - optional "tag": short label chip above the headline (default "HEADLINE:")
 
 layout "stats" (original):
   "heroes": [{"value": "664.9M", "label": "...", "bar": 0.26, "accent": true}]  (1-2)
@@ -25,7 +37,7 @@ layout "split":  then vs now, or A vs B
   "right": {"tag": "2026", "value": "206.9M", "label": "...", "accent": true}
   "delta": "optional, e.g. +60%"
 """
-import json, os, sys, glob, textwrap
+import json, os, sys, glob, re
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, M = 1080, 1350, 80
@@ -33,11 +45,18 @@ THEMES = {
     "dark":  dict(BG="#0E1116", FG="#F4F1EA", MUTED="#8A919C", ACC="#FF6A3D", ACC2="#F7B32B", LINE="#232833", TILE="#171B22"),
     "light": dict(BG="#F6F3EC", FG="#14171C", MUTED="#5E6570", ACC="#E0451B", ACC2="#B7790B", LINE="#DDD7CB", TILE="#FFFFFF"),
     "ink":   dict(BG="#0B1F3A", FG="#F2F5FA", MUTED="#9FB0C8", ACC="#36C5A3", ACC2="#FFC857", LINE="#1C3457", TILE="#12294A"),
+    # bold news-style themes: gradient G1 (top-left) -> G2 (bottom-right)
+    "pop":    dict(G1="#2B0A5E", G2="#C2185B", FG="#FFFFFF", MUTED="#F3D9F0", ACC="#FFE600", ACC2="#00E5FF", LINE="#5A2A7A", TILE="#1E0840", BOLD=True),
+    "ocean":  dict(G1="#061A40", G2="#0E8C8C", FG="#FFFFFF", MUTED="#CDE9F2", ACC="#FFE600", ACC2="#FF7AB6", LINE="#1F4E6E", TILE="#04142F", BOLD=True),
+    "sunset": dict(G1="#5C0A14", G2="#F26419", FG="#FFFFFF", MUTED="#FFE3CF", ACC="#FFE600", ACC2="#7CF5FF", LINE="#8A2A1E", TILE="#3A060C", BOLD=True),
+    "forest": dict(G1="#03241A", G2="#14A06A", FG="#FFFFFF", MUTED="#D3F5E4", ACC="#FFE600", ACC2="#FF8A5B", LINE="#1D5A43", TILE="#021A12", BOLD=True),
 }
+BANNER = "#FFE600"
 BYLINE = "Deepak Joshi  ·  in/deepakjoshi-ai"
 
 FONT_DIRS = ["/usr/share/fonts/opentype/inter/", "/usr/share/fonts/truetype/inter/"]
-FALLBACK = {"Bold": "DejaVuSans-Bold.ttf", "SemiBold": "DejaVuSans-Bold.ttf", "Medium": "DejaVuSans.ttf", "Regular": "DejaVuSans.ttf"}
+FALLBACK = {"Black": "DejaVuSans-Bold.ttf", "ExtraBold": "DejaVuSans-Bold.ttf", "Bold": "DejaVuSans-Bold.ttf",
+            "SemiBold": "DejaVuSans-Bold.ttf", "Medium": "DejaVuSans.ttf", "Regular": "DejaVuSans.ttf"}
 
 
 def font(weight, size):
@@ -69,12 +88,75 @@ def wrap(d, text, f, max_w):
     return lines
 
 
+def plain(text):
+    return text.replace("*", "")
+
+
+def rich(d, xy, text, f, base, hl):
+    """Draw text where *segments* are highlighted."""
+    x, y = xy
+    for i, part in enumerate(re.split(r"\*", text)):
+        if not part:
+            continue
+        d.text((x, y), part, font=f, fill=hl if i % 2 else base)
+        x += d.textlength(part, font=f)
+
+
 def header(d, spec, c, inner):
     d.text((M, 84), spec["kicker"], font=fit(d, spec["kicker"], "SemiBold", 28, inner), fill=c["ACC"])
-    h1, h2 = (spec["headline"] + [""])[:2]
+    h1, h2 = ([plain(h) for h in spec["headline"]] + [""])[:2]
     d.text((M, 130), h1, font=fit(d, h1, "Bold", 64, inner), fill=c["FG"])
     if h2:
         d.text((M, 206), h2, font=fit(d, h2, "Bold", 64, inner), fill=c["MUTED"])
+
+
+def gradient(c):
+    a = tuple(int(c["G1"][i:i + 2], 16) for i in (1, 3, 5))
+    b = tuple(int(c["G2"][i:i + 2], 16) for i in (1, 3, 5))
+    small = Image.new("RGB", (64, 80))
+    px = small.load()
+    for yy in range(80):
+        for xx in range(64):
+            t = min(1.0, (xx / 63 * 0.45 + yy / 79 * 0.75) / 1.2)
+            px[xx, yy] = tuple(int(a[k] + (b[k] - a[k]) * t) for k in range(3))
+    return small.resize((W, H), Image.BICUBIC)
+
+
+def decorate(img, c):
+    """Soft glow circles and a dotted grid for depth."""
+    over = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    o = ImageDraw.Draw(over)
+    o.ellipse((W - 380, 140, W + 220, 740), fill=(255, 255, 255, 18))
+    o.ellipse((-260, 900, 340, 1500), fill=(255, 230, 0, 16))
+    for gx in range(W - 250, W - 60, 28):
+        for gy in range(150, 300, 28):
+            o.ellipse((gx, gy, gx + 5, gy + 5), fill=(255, 255, 255, 60))
+    img.paste(Image.alpha_composite(img.convert("RGBA"), over).convert("RGB"))
+
+
+def header_bold(d, spec, c, inner):
+    # yellow banner
+    d.rectangle((0, 0, W, 112), fill=BANNER)
+    k = spec["kicker"].upper()
+    kf = fit(d, k, "Black", 66, W - 2 * M)
+    kw = d.textlength(k, font=kf)
+    d.text(((W - kw) / 2, 56), k, font=kf, fill="#111111", anchor="lm")
+    d.rectangle((0, 112, W, 120), fill="#111111")
+    # tag chip
+    tag = spec.get("tag", "HEADLINE:")
+    tf = font("Black", 30)
+    tw = d.textlength(tag, font=tf)
+    d.rectangle((M, 138, M + tw + 32, 182), fill=BANNER)
+    d.text((M + 16, 160), tag, font=tf, fill="#111111", anchor="lm")
+    d.line((M + tw + 48, 160, W - M, 160), fill="#FFFFFF", width=4)
+    # headline with highlights
+    lines = spec["headline"][:2]
+    size = 56
+    while size > 36 and any(d.textlength(plain(l), font=font("ExtraBold", size)) > inner for l in lines):
+        size -= 2
+    hf = font("ExtraBold", size)
+    for i, l in enumerate(lines):
+        rich(d, (M, 192 + i * (size + 10)), l, hf, c["FG"], c["ACC"])
 
 
 def body_stats(d, spec, c, inner):
@@ -194,18 +276,27 @@ BODIES = {"stats": body_stats, "timeline": body_timeline, "quote": body_quote, "
 
 def render(spec, out):
     c = THEMES.get(spec.get("theme", "dark"), THEMES["dark"])
-    img = Image.new("RGB", (W, H), c["BG"])
+    bold = c.get("BOLD", False)
+    if bold:
+        img = gradient(c)
+        decorate(img, c)
+    else:
+        img = Image.new("RGB", (W, H), c["BG"])
     d = ImageDraw.Draw(img)
     inner = W - 2 * M
-    header(d, spec, c, inner)
+    (header_bold if bold else header)(d, spec, c, inner)
     BODIES.get(spec.get("layout", "stats"), body_stats)(d, spec, c, inner)
 
-    d.line((M, 1262, W - M, 1262), fill=c["LINE"], width=2)
+    if bold:
+        d.rectangle((0, 1250, W, H), fill="#111111")
+        d.rectangle((0, 1250, W, 1256), fill=BANNER)
+    else:
+        d.line((M, 1262, W - M, 1262), fill=c["LINE"], width=2)
     byf = font("SemiBold", 22)
     bw = d.textlength(BYLINE, font=byf)
     src = "Source: " + spec.get("source", "")
-    d.text((M, 1280), src, font=fit(d, src, "Regular", 22, inner - bw - 30, 14), fill=c["MUTED"])
-    d.text((W - M - bw, 1280), BYLINE, font=byf, fill=c["FG"])
+    d.text((M, 1290 if bold else 1280), src, font=fit(d, src, "Regular", 22, inner - bw - 30, 14), fill="#D0D0D0" if bold else c["MUTED"])
+    d.text((W - M - bw, 1290 if bold else 1280), BYLINE, font=byf, fill=BANNER if bold else c["FG"])
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     img.save(out, optimize=True)
 
