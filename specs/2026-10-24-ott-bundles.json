@@ -1,0 +1,32 @@
+{
+  "topic": "ott-bundles",
+  "layout": "timeline",
+  "theme": "pop",
+  "kicker": "OTT NUMBERS!",
+  "tag": "BUNDLE WATCH:",
+  "headline": [
+    "The *₹200* OTT top-up",
+    "keeps getting *bigger*"
+  ],
+  "events": [
+    {
+      "when": "27 Jul 2026",
+      "text": "Jio's ₹200 data voucher lists YouTube Premium"
+    },
+    {
+      "when": "3 Aug 2026",
+      "text": "Airtel's ₹200 pack: named OTT subs go from 2 to 4"
+    },
+    {
+      "when": "21 Oct 2026",
+      "text": "Prime Video adds Sony LIV add-on at ₹399/month"
+    },
+    {
+      "when": "23 Oct 2026",
+      "text": "Airtel adds YouTube Premium to its ₹200 top-up",
+      "accent": true
+    }
+  ],
+  "note": "₹200 / 28 days: Prime Video, JioHotstar, ZEE5, SonyLIV + 18+ more",
+  "source": "BestMediaInfo, MediaNews4U, TelecomTalk (Jul–Oct 2026)"
+}
