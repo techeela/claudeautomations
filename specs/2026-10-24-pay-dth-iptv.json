@@ -1,0 +1,16 @@
+{
+  "topic": "pay-dth-iptv",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "TRAI DATA  ·  INDIA TV DISTRIBUTION",
+  "headline": ["Pay DTH shrinks,", "IPTV keeps adding homes"],
+  "events": [
+    {"when": "Jun 2025", "text": "Pay DTH active base at 56.07 million subscribers"},
+    {"when": "Sep 2025", "text": "Airtel IPTV at 15.68 lakh subscribers"},
+    {"when": "Mar 2026", "text": "Airtel IPTV at 35.95 lakh; pay DTH at 49.09 million"},
+    {"when": "Jun 2026", "text": "Pay DTH falls to 48.56 million, down 13.4% in a year", "accent": true},
+    {"when": "Jun 2026", "text": "IPTV at 6.21 million, Airtel alone 4.09 million"}
+  ],
+  "note": "Mobile data: 28.39 GB per user a month at ₹7.13/GB",
+  "source": "TRAI via Indian Television, MediaNews4U, 2026"
+}
