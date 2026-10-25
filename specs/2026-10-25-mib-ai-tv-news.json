@@ -1,0 +1,11 @@
+{
+  "topic": "mib-ai-tv-news",
+  "layout": "quote",
+  "theme": "ink",
+  "kicker": "AI IN TV NEWS  ·  MIB ADVISORY  ·  21 OCT 2026",
+  "headline": ["AI gets a job title", "in Indian TV news"],
+  "quote": "Restrict the use of artificial intelligence (AI) and generative AI to assistive roles in news production.",
+  "by": "I&B Ministry advisory to private satellite channels",
+  "stat": {"value": "7", "label": "earlier MIB advisories it cites, going back to January 2023"},
+  "source": "MIB advisory via Deccan Chronicle, e4m (Oct 2026)"
+}
