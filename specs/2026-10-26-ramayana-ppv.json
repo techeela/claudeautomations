@@ -1,0 +1,12 @@
+{
+  "topic": "ramayana-ppv",
+  "layout": "split",
+  "theme": "sunset",
+  "kicker": "OTT PRICING WATCH",
+  "tag": "BIG FILM, NEW MODEL:",
+  "headline": ["Ramayana skips the bundle:", "*pay-per-view* on JioHotstar"],
+  "left": {"tag": "Window 1 · Cinemas", "value": "5 Nov", "label": "Worldwide release, incl. IMAX 3D, in 6 languages"},
+  "right": {"tag": "Window 2 · OTT", "value": "PPV", "label": "Bought separately on JioHotstar after the cinema run", "accent": true},
+  "delta": "Price: TBA",
+  "source": "afaqs, Bollywood Hungama (22 Oct 2026)"
+}
