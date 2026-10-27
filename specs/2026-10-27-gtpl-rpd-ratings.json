@@ -1,0 +1,18 @@
+{
+  "topic": "gtpl-rpd-ratings",
+  "layout": "stats",
+  "theme": "ocean",
+  "kicker": "TV RATINGS FREEZE",
+  "tag": "CABLE DATA:",
+  "headline": ["A cable operator now", "ranks *India's TV channels*"],
+  "heroes": [
+    {"value": "50,000", "label": "households GTPL plans to measure in the next few months", "bar": 1.0, "accent": false},
+    {"value": "10,000+", "label": "Return Path Data set-top boxes measured today", "bar": 0.2, "accent": true}
+  ],
+  "tiles": [
+    {"big": "~1,000", "line1": "channels measured", "line2": "incl. FTA and regional"},
+    {"big": "7.5 hrs+", "line1": "linear TV a day", "line2": "per measured home"},
+    {"big": "~3,000", "line1": "PIN codes", "line2": "across 200+ towns"}
+  ],
+  "source": "GTPL Hathway via exchange4media, BestMediaInfo (Oct 2026)"
+}
