@@ -1,0 +1,15 @@
+{
+  "topic": "drishyam-week-one",
+  "layout": "ranking",
+  "theme": "light",
+  "kicker": "INDIAN CINEMA  ·  BOX OFFICE  ·  OCT 2026",
+  "headline": ["66% of the run came", "in the first 7 days"],
+  "unit": "Drishyam: The Conclusion, India net by week, ₹ crore",
+  "rows": [
+    {"label": "Week 1 (2–8 Oct)", "value": "₹245.5 cr", "bar": 1.0, "accent": true},
+    {"label": "Week 2", "value": "₹87.5 cr", "bar": 0.356},
+    {"label": "Week 3", "value": "₹28.85 cr", "bar": 0.118},
+    {"label": "Days 22–26", "value": "₹9.35 cr", "bar": 0.038}
+  ],
+  "source": "Sacnilk, updated 27 Oct 2026"
+}
