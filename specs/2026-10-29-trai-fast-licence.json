@@ -1,0 +1,31 @@
+{
+  "topic": "trai-fast-licence",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "INTERNET TV  ·  REGULATION  ·  2026",
+  "headline": [
+    "TRAI wants FAST apps",
+    "to need a licence"
+  ],
+  "events": [
+    {
+      "when": "15 Dec 2025",
+      "text": "I&B Ministry refers internet TV distribution to TRAI"
+    },
+    {
+      "when": "6 Apr 2026",
+      "text": "Consultation paper out; 207 comments and 11 counter-comments"
+    },
+    {
+      "when": "10 Jun 2026",
+      "text": "TRAI holds an open house discussion on the paper"
+    },
+    {
+      "when": "26 Oct 2026",
+      "text": "Recommendations: 20-year app licence, ₹1 lakh a year per channel",
+      "accent": true
+    }
+  ],
+  "note": "Next: the I&B Ministry decides. Pricing still open.",
+  "source": "TRAI via Indian Television, MediaNews4U (Oct 2026)"
+}
