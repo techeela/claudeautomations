@@ -1,0 +1,17 @@
+{
+  "topic": "jiohotstar-ctv-watchtime",
+  "layout": "stats",
+  "theme": "ink",
+  "kicker": "INDIA OTT NUMBERS  ·  JUL–SEP 2026",
+  "headline": ["JioHotstar's big screen", "is where viewing grows"],
+  "heroes": [
+    {"value": "3x", "label": "Content a CTV viewer consumes vs a mobile viewer", "accent": true},
+    {"value": "440M", "label": "Avg monthly active users in the quarter, up 10% YoY"}
+  ],
+  "tiles": [
+    {"big": "15%+", "line1": "Entertainment", "line2": "watch-time growth"},
+    {"big": "₹6,806 cr", "line1": "Revenue from ops", "line2": "up 10.1% YoY"},
+    {"big": "22.1%", "line1": "EBITDA margin", "line2": "from 28.1%"}
+  ],
+  "source": "JioStar Q2 FY27 via Indian Broadcasting World, 31 Oct 2026"
+}
