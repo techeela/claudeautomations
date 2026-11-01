@@ -1,0 +1,15 @@
+{
+  "layout": "ranking",
+  "theme": "dark",
+  "topic": "alphabet-q3",
+  "kicker": "AI + MEDIA  ·  ALPHABET Q3 2026",
+  "headline": ["Cloud doubled.", "Shares fell 10% pre-market."],
+  "unit": "Year-on-year revenue growth, July–September 2026",
+  "rows": [
+    {"label": "Google Cloud", "value": "+103%", "bar": 1.0, "accent": true},
+    {"label": "Search and other ads", "value": "+12%", "bar": 0.117},
+    {"label": "YouTube ads", "value": "+9%", "bar": 0.087},
+    {"label": "Google Network ads", "value": "+1%", "bar": 0.01}
+  ],
+  "source": "Yahoo Finance, MediaNews4U (29 Oct 2026)"
+}
