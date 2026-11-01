@@ -1,0 +1,35 @@
+{
+  "layout": "timeline",
+  "theme": "light",
+  "topic": "zee-ai-hire",
+  "kicker": "MEDIA + AI  ·  ZEE ENTERTAINMENT",
+  "headline": [
+    "Zee's new AI head came",
+    "from streaming infra"
+  ],
+  "events": [
+    {
+      "when": "Jan 2020",
+      "text": "Tony Thomas joins ZEE5 engineering (quality)"
+    },
+    {
+      "when": "Aug 2022",
+      "text": "Moves to Jio: infrastructure, DevOps, quality"
+    },
+    {
+      "when": "2022–2023",
+      "text": "Runs JioCinema cloud for FIFA 2022, IPL 2023"
+    },
+    {
+      "when": "Jun 2026",
+      "text": "ZEE5 names a Business Head – AI and Innovation"
+    },
+    {
+      "when": "Oct 2026",
+      "text": "Thomas rejoins Zee as head of AI transformation",
+      "accent": true
+    }
+  ],
+  "note": "Zee group AI leadership hires: June and October 2026",
+  "source": "Indian Television (31 Oct 2026), Digital Terminal (Jun 2026)"
+}
