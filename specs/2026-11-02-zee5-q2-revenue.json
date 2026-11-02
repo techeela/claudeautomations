@@ -1,0 +1,23 @@
+{
+  "topic": "zee5-q2-revenue",
+  "layout": "split",
+  "theme": "ink",
+  "kicker": "INDIA OTT  ·  Q2 FY27 RESULTS",
+  "headline": [
+    "ZEE5's quarterly revenue",
+    "doubled in a year"
+  ],
+  "left": {
+    "tag": "Jul–Sep 2025",
+    "value": "₹300 cr+",
+    "label": "ZEE5 revenue crossed ₹300 crore in Q2 FY26"
+  },
+  "right": {
+    "tag": "Jul–Sep 2026",
+    "value": "₹626 cr",
+    "label": "ZEE5's highest-ever quarter, Q2 FY27",
+    "accent": true
+  },
+  "delta": "+101%",
+  "source": "MediaNews4U, 30 Oct 2026; exchange4media, 17 Oct 2025"
+}
