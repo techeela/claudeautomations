@@ -1,0 +1,39 @@
+{
+  "layout": "stats",
+  "theme": "light",
+  "topic": "news-tv-q2-results",
+  "kicker": "INDIAN TV NEWS  ·  Q2 FY27 RESULTS",
+  "headline": [
+    "What news TV earned",
+    "with no ratings to sell"
+  ],
+  "heroes": [
+    {
+      "value": "−13%",
+      "label": "News-genre ad inventory consumption, Jul–Sep 2026 (Network18)",
+      "accent": true
+    },
+    {
+      "value": "6+ months",
+      "label": "News channels without TV ratings data"
+    }
+  ],
+  "tiles": [
+    {
+      "big": "₹545 cr",
+      "line1": "Network18 revenue",
+      "line2": "+9.4% year on year"
+    },
+    {
+      "big": "₹63.5 cr",
+      "line1": "NDTV Q2 net loss",
+      "line2": "vs ₹74 cr a year ago"
+    },
+    {
+      "big": "₹800 cr",
+      "line1": "NDTV fundraise cap",
+      "line2": "approved by its board"
+    }
+  ],
+  "source": "afaqs, MediaNews4U (30 Oct 2026); PTI (27 Oct 2026)"
+}
