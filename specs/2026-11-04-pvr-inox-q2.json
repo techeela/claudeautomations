@@ -1,0 +1,24 @@
+{
+  "topic": "pvr-inox-q2",
+  "layout": "split",
+  "theme": "sunset",
+  "kicker": "MULTIPLEX MATHS",
+  "tag": "PVR INOX · JUL–SEP 2026",
+  "headline": [
+    "Record quarter, led by",
+    "*price more than people*"
+  ],
+  "left": {
+    "tag": "Guests",
+    "value": "+4%",
+    "label": "To 46.3 million admits"
+  },
+  "right": {
+    "tag": "Avg ticket",
+    "value": "+14%",
+    "label": "Average ticket now ₹298",
+    "accent": true
+  },
+  "delta": "30.4% seats filled",
+  "source": "PVR INOX Q2 FY27 results via Adgully, Investing.com, Upstox (Oct 2026)"
+}
