@@ -1,0 +1,31 @@
+{
+  "topic": "hoichoi-netflix-dubbing",
+  "layout": "timeline",
+  "theme": "ink",
+  "kicker": "REGIONAL OTT  ·  BENGALI IP GOES NATIONAL",
+  "headline": [
+    "hoichoi's Bengali shows",
+    "now ship in 4 languages"
+  ],
+  "events": [
+    {
+      "when": "2017",
+      "text": "hoichoi launches as a Bengali streaming service"
+    },
+    {
+      "when": "22 Oct 2026",
+      "text": "Netflix deal: 14 hoichoi titles in Hindi, Tamil and Telugu"
+    },
+    {
+      "when": "6 Nov 2026",
+      "text": "Kauriburi premieres in Bengali on hoichoi, alongside its Netflix dubs",
+      "accent": true
+    },
+    {
+      "when": "Next two years",
+      "text": "All new hoichoi series also go to Netflix, exclusively, in three languages"
+    }
+  ],
+  "note": "Adaptations by hoichoi studios: details to be announced",
+  "source": "Netflix, afaqs, Outlook India (22 Oct 2026)"
+}
