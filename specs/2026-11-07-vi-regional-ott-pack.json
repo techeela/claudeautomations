@@ -1,0 +1,17 @@
+{
+  "topic": "vi-regional-ott-pack",
+  "layout": "stats",
+  "theme": "light",
+  "kicker": "OTT PRICING  ·  NOV 2026",
+  "headline": ["Vi now sells regional", "OTT at two price points"],
+  "heroes": [
+    {"value": "₹35", "label": "Pick 2 of 6 regional apps, 28 days, mobile only", "bar": 0.175, "accent": true},
+    {"value": "₹200", "label": "20 OTT platforms, 30GB data, 28 days (July pack)", "bar": 1.0, "accent": false}
+  ],
+  "tiles": [
+    {"big": "9", "line1": "Indian languages", "line2": "in the ₹35 menu"},
+    {"big": "₹17.50", "line1": "per app", "line2": "for 28 days"},
+    {"big": "1GB", "line1": "data with ₹35", "line2": "valid 7 days"}
+  ],
+  "source": "MediaNews4U (6 Nov 2026), Republic World (27 Jul 2026)"
+}
