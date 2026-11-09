@@ -1,0 +1,15 @@
+{
+  "layout": "ranking",
+  "theme": "light",
+  "topic": "jailer2-ott-window",
+  "kicker": "INDIA OTT  ·  THEATRE-TO-STREAMING WINDOW",
+  "headline": ["Jailer 2 streams on day 28", "India net by language"],
+  "unit": "₹ crore India net after 21 days (Sacnilk, 4 Nov 2026)",
+  "rows": [
+    {"label": "Tamil", "value": "₹322.43 Cr", "bar": 1.0},
+    {"label": "Telugu", "value": "₹85.43 Cr", "bar": 0.265},
+    {"label": "Hindi (no PVR INOX, Cinepolis)", "value": "₹50.10 Cr", "bar": 0.155, "accent": true},
+    {"label": "Kannada", "value": "₹8.09 Cr", "bar": 0.025}
+  ],
+  "source": "Sacnilk (4-5 Nov 2026); Prime Video (5 Nov 2026)"
+}
