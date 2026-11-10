@@ -1,0 +1,16 @@
+{
+  "topic": "mib-ai-advisories",
+  "layout": "timeline",
+  "theme": "ocean",
+  "kicker": "TV NEWS RULES",
+  "tag": "I&B MINISTRY:",
+  "headline": ["One AI message,", "*two screens in 12 days*"],
+  "events": [
+    {"when": "21 Oct 2026", "text": "Advisory to TV news channels: use AI only in an assistive capacity"},
+    {"when": "Programme Code", "text": "Covers graphics and virtual news presentations; no looping of disturbing footage"},
+    {"when": "2 Nov 2026", "text": "Nine-point advisory to OTT, digital news and intermediaries", "accent": true},
+    {"when": "IT Act", "text": "Verify AI-altered media; disclose synthetic content of real events"}
+  ],
+  "note": "Both: verified facts in crime coverage, blur where needed",
+  "source": "Indian Television, MediaNama, Social Samosa (Oct–Nov 2026)"
+}
