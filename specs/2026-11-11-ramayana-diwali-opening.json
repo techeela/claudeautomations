@@ -1,0 +1,17 @@
+{
+  "topic": "ramayana-diwali-opening",
+  "layout": "ranking",
+  "theme": "sunset",
+  "kicker": "DIWALI BOX OFFICE",
+  "tag": "OPENING DAY:",
+  "headline": ["Ramayana sets a", "*Diwali opening* record"],
+  "unit": "Diwali-release opening day, India net, ₹ crore",
+  "rows": [
+    {"label": "Ramayana (2026)", "value": "₹65", "bar": 1.0, "accent": true},
+    {"label": "Thugs Of Hindostan", "value": "₹50.75", "bar": 0.781},
+    {"label": "Happy New Year", "value": "₹44.97", "bar": 0.692},
+    {"label": "Tiger 3", "value": "₹44.50", "bar": 0.685},
+    {"label": "Singham Again", "value": "₹43.70", "bar": 0.672}
+  ],
+  "source": "Koimoi, 6 Nov 2026"
+}
