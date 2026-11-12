@@ -1,0 +1,15 @@
+{
+  "topic": "maya-iptv-piracy",
+  "layout": "timeline",
+  "theme": "ink",
+  "kicker": "REGIONAL OTT  ·  PIRACY WATCH",
+  "headline": ["4,450+ channels,", "one unauthorised app"],
+  "events": [
+    {"when": "29 May 2026", "text": "FIR at Delhi Crime Branch on JioStar's complaint"},
+    {"when": "4 Nov 2026", "text": "Raids in Bahadurgarh and Rajouri Garden"},
+    {"when": "4 Nov 2026", "text": "Alleged reseller arrested, phone running the app seized"},
+    {"when": "6 Nov 2026", "text": "Maya IPTV reported non-operational", "accent": true}
+  ],
+  "note": "Probe into the wider reseller network continues",
+  "source": "Indian Television, MediaNews4U, Adgully (6 Nov 2026)"
+}
