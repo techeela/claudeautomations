@@ -1,0 +1,23 @@
+{
+  "layout": "split",
+  "theme": "ink",
+  "topic": "esic-amnesty",
+  "kicker": "MSME COMPLIANCE  ·  ESI  ·  NOV 2026",
+  "headline": [
+    "ESIC's amnesty window",
+    "closes in 48 days"
+  ],
+  "left": {
+    "tag": "Ad-hoc assessment",
+    "value": "₹0",
+    "label": "in damages. Pay the actual contributions plus interest due"
+  },
+  "right": {
+    "tag": "Dues already paid",
+    "value": "10%",
+    "label": "of disputed damages to withdraw the case",
+    "accent": true
+  },
+  "delta": "Ends 31 Dec 2026",
+  "source": "Labour Ministry via PTI/Business Standard, 29 Oct 2026"
+}
