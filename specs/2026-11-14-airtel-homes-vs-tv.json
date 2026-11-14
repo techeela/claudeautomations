@@ -1,0 +1,17 @@
+{
+  "topic": "airtel-homes-vs-tv",
+  "layout": "stats",
+  "theme": "light",
+  "kicker": "INDIA STREAMING  ·  JUL–SEP 2026",
+  "headline": ["Broadband homes have", "almost caught pay TV"],
+  "heroes": [
+    {"value": "15.56M", "label": "Airtel Digital TV customers (DTH + IPTV), Sep 2026", "bar": 1.0, "accent": false},
+    {"value": "15.37M", "label": "Airtel Homes broadband customers, up 28.9% YoY", "bar": 0.988, "accent": true}
+  ],
+  "tiles": [
+    {"big": "36.5 GB", "line1": "Mobile data per", "line2": "customer a month"},
+    {"big": "~443K", "line1": "Digital TV customers", "line2": "lost in the quarter"},
+    {"big": "3.5%", "line1": "Monthly Digital TV", "line2": "churn, from 2.7%"}
+  ],
+  "source": "Bharti Airtel Q2 FY27 via TelecomLead, TelecomTalk (5 Nov 2026)"
+}
