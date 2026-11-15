@@ -1,0 +1,24 @@
+{
+ "topic": "bbc-india-frammer-ai",
+ "layout": "split",
+ "theme": "ocean",
+ "kicker": "AI IN THE NEWSROOM",
+ "tag": "MEDIA + AI:",
+ "headline": [
+  "BBC's India newsroom",
+  "signs up *Frammer AI*"
+ ],
+ "left": {
+  "tag": "April 2024",
+  "value": "4",
+  "label": "former BBC staff founded Collective Newsroom to make BBC News in India"
+ },
+ "right": {
+  "tag": "Nov 2026",
+  "value": "250+",
+  "label": "journalists, with video now cut and published on Frammer AI",
+  "accent": true
+ },
+ "source": "Creative Brands Mag, Nov 2026; Indian Television, Mar 2026",
+ "delta": "9 languages"
+}
