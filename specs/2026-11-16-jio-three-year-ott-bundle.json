@@ -1,0 +1,39 @@
+{
+  "topic": "jio-three-year-ott-bundle",
+  "layout": "stats",
+  "theme": "ink",
+  "kicker": "INDIA OTT  ·  TELECOM BUNDLES",
+  "headline": [
+    "Streaming, now sold",
+    "three years at a time"
+  ],
+  "heroes": [
+    {
+      "value": "1,095 days",
+      "label": "Validity of Jio's ₹10,000 prepaid plan bundling JioHotstar",
+      "accent": true
+    },
+    {
+      "value": "440M",
+      "label": "JioHotstar average monthly users, July–September 2026 (+10% YoY)"
+    }
+  ],
+  "tiles": [
+    {
+      "big": "₹9.13",
+      "line1": "per day",
+      "line2": "on the 3-year pack"
+    },
+    {
+      "big": "₹797",
+      "line1": "cheaper than",
+      "line2": "3 x ₹3,599 annual"
+    },
+    {
+      "big": "15%+",
+      "line1": "JioHotstar watch",
+      "line2": "time growth, Q2"
+    }
+  ],
+  "source": "IndianTelevision, Digit, PTI (Oct–Nov 2026)"
+}
