@@ -1,0 +1,11 @@
+{
+  "topic": "tv-ratings-gtpl",
+  "layout": "quote",
+  "theme": "ink",
+  "kicker": "TV RATINGS  ·  NOV 2026",
+  "headline": ["No ratings, no date", "and one data feed pulled"],
+  "quote": "The industry hasn't been able to reach a workable solution",
+  "by": "I&B ministry source, via Indian Television",
+  "stat": {"value": "10,000+", "label": "set-top boxes in GTPL Hathway's withdrawn RPD data"},
+  "source": "Indian Television, Broadcast and CableSat (12 Nov 2026)"
+}
