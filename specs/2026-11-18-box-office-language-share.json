@@ -1,0 +1,19 @@
+{
+  "topic": "box-office-language-share",
+  "layout": "ranking",
+  "theme": "light",
+  "kicker": "INDIA BOX OFFICE  ·  LANGUAGE SHARE",
+  "headline": [
+    "Tamil, international films",
+    "gain box office share"
+  ],
+  "unit": "Share of India's gross box office in 2026, by language",
+  "rows": [
+    {"label": "Hindi", "value": "39%", "bar": 1.0, "accent": false},
+    {"label": "Telugu", "value": "18%", "bar": 0.46, "accent": false},
+    {"label": "Tamil (13% in 2025)", "value": "15%", "bar": 0.38, "accent": true},
+    {"label": "All other languages", "value": "15%", "bar": 0.38, "accent": false},
+    {"label": "International (10% in 2025)", "value": "13%", "bar": 0.33, "accent": true}
+  ],
+  "source": "MediaNews4U, 16 Nov 2026"
+}
