@@ -1,0 +1,31 @@
+{
+  "topic": "pf-ceiling-arrears",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "SMB PAYROLL  ·  EPFO  ·  2026",
+  "headline": [
+    "PF ceiling is ₹25,000.",
+    "Arrears are the open case."
+  ],
+  "events": [
+    {
+      "when": "Sep 2014",
+      "text": "PF wage ceiling raised to ₹15,000"
+    },
+    {
+      "when": "17 Sep 2026",
+      "text": "Ceiling rises to ₹25,000, bringing 51 lakh+ more employees under EPFO",
+      "accent": true
+    },
+    {
+      "when": "Sep 2026 return",
+      "text": "One ECR with the month split: 1–16 Sep at ₹15,000 and 17–30 Sep at ₹25,000"
+    },
+    {
+      "when": "18 Nov 2026",
+      "text": "On backdated arrears, EPFO guidance doesn't expressly say which ceiling applies"
+    }
+  ],
+  "note": "Same ₹28,000 arrears: ₹1,368 or ₹3,360 employee PF",
+  "source": "Business Today (Sep 2026), EPFO FAQs via SGCMS, TaxGuru (Nov 2026)"
+}
