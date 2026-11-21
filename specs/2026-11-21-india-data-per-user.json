@@ -1,0 +1,12 @@
+{
+  "topic": "india-data-per-user",
+  "layout": "split",
+  "theme": "ocean",
+  "kicker": "TRAI DATA · FY26",
+  "tag": "MOBILE DATA:",
+  "headline": ["More GB per user,", "*less earned per GB*"],
+  "left": {"tag": "FY25", "value": "21.53 GB", "label": "used a month per data user, at ₹8.97 per GB"},
+  "right": {"tag": "FY26", "value": "25.51 GB", "label": "used a month per data user, at ₹8.02 per GB", "accent": true},
+  "delta": "+18.49%",
+  "source": "TRAI Yearly Performance Indicators 2025-26 (5 Oct 2026)"
+}
