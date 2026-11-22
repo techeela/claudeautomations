@@ -1,0 +1,35 @@
+{
+  "topic": "sarvam-token-factory",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "MEDIA + AI  ·  INDIA  ·  NOV 2026",
+  "headline": [
+    "Sarvam's Token Factory",
+    "bills AI in rupees"
+  ],
+  "events": [
+    {
+      "when": "Mar 2026",
+      "text": "Sarvam's subsidised IndiaAI GPU access ends"
+    },
+    {
+      "when": "16 Nov 2026",
+      "text": "Token Factory launches: Sarvam 105B at ₹10 in / ₹25 out per Mn tokens",
+      "accent": true
+    },
+    {
+      "when": "19 Nov 2026",
+      "text": "Debate over six Chinese models on its GPUs"
+    },
+    {
+      "when": "21 Nov 2026",
+      "text": "Sarvam: platform runs on privately bought GPUs"
+    },
+    {
+      "when": "31 Dec 2026",
+      "text": "Introductory rupee pricing ends"
+    }
+  ],
+  "note": "Prompts run on GPUs in India, not overseas APIs",
+  "source": "Inc42 (17 & 21 Nov 2026), MediaNama (19 Nov 2026)"
+}
