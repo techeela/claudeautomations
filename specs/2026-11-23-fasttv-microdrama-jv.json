@@ -1,0 +1,16 @@
+{
+  "topic": "fasttv-microdrama-jv",
+  "layout": "stats",
+  "theme": "ink",
+  "kicker": "INDIA OTT  ·  MICRO-DRAMA JV  ·  NOV 2026",
+  "headline": ["T-Series + Hungama", "launch FastTV"],
+  "heroes": [
+    {"value": "₹300 crore", "label": "committed by T-Series and Hungama to FastTV", "accent": true},
+    {"value": "100+", "label": "Alright! TV titles added to Tata Play Binge Shots"}
+  ],
+  "tiles": [
+    {"big": "18 months", "line1": "Hungama's build time", "line2": "for app + AI production tech"},
+    {"big": "17 Nov", "line1": "JV announced; live on", "line2": "Google Play, App Store, web"}
+  ],
+  "source": "THR India, exchange4media, MediaNews4U · Nov 2026"
+}
