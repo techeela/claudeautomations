@@ -1,0 +1,17 @@
+{
+  "layout": "ranking",
+  "theme": "ocean",
+  "topic": "hindi-news-reach",
+  "kicker": "NEWS TV REACH",
+  "tag": "WEEK 46:",
+  "headline": ["Top 3 Hindi news channels", "*0.21 points* apart on reach"],
+  "unit": "OTS % of TV homes, Hindi news, 14-20 Nov 2026",
+  "rows": [
+    {"label": "Zee News", "value": "98.31%", "bar": 0.9831, "accent": true},
+    {"label": "Aaj Tak", "value": "98.16%", "bar": 0.9816, "accent": true},
+    {"label": "Times Now Navbharat", "value": "98.10%", "bar": 0.9810, "accent": true},
+    {"label": "News18 India", "value": "96.71%", "bar": 0.9671, "accent": false},
+    {"label": "NDTV India", "value": "95.99%", "bar": 0.9599, "accent": false}
+  ],
+  "source": "Chrome DM OTS Week 46 via MediaNews4U, Nov 2026"
+}
