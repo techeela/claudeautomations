@@ -1,0 +1,18 @@
+{
+  "layout": "stats",
+  "theme": "sunset",
+  "topic": "screen-wars",
+  "kicker": "SCREEN WARS",
+  "tag": "BOX OFFICE:",
+  "headline": ["A theatre chain now owns", "*one side of a clash*"],
+  "heroes": [
+    {"value": "~6,000", "label": "Hindi-film screens, of 10,000+ in India, up for grabs", "bar": 0.6, "accent": true},
+    {"value": "~9,000", "label": "screens Ramayana: Part 1 is on, across five languages"}
+  ],
+  "tiles": [
+    {"big": "₹80–90 cr", "line1": "Reported Eetha deal,", "line2": "PVR INOX Pictures"},
+    {"big": "1,797", "line1": "PVR INOX screens", "line2": "end-September 2026"},
+    {"big": "4 Dec", "line1": "Eetha vs", "line2": "Maatrubhumi"}
+  ],
+  "source": "Free Press Journal, Boxofficewala (Nov 2026); PVR INOX Q2 FY27"
+}
