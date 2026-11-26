@@ -1,0 +1,17 @@
+{
+  "topic": "regional-ott-rs35-pack",
+  "layout": "ranking",
+  "theme": "light",
+  "kicker": "REGIONAL OTT  ·  TELCO BUNDLES",
+  "headline": ["₹35 buys two regional", "OTT apps for 28 days"],
+  "unit": "Languages each app covers in Vi's ₹35 add-on (pick any 2)",
+  "rows": [
+    {"label": "SonyLIV South", "value": "4", "bar": 1.0},
+    {"label": "Chaupal (incl. Bhojpuri)", "value": "3", "bar": 0.75, "accent": true},
+    {"label": "ManoramaMAX (Malayalam)", "value": "1", "bar": 0.25},
+    {"label": "KLiKK (Bengali)", "value": "1", "bar": 0.25},
+    {"label": "AddaTimes (Bengali)", "value": "1", "bar": 0.25},
+    {"label": "Aao NXT (Odia)", "value": "1", "bar": 0.25}
+  ],
+  "source": "MediaNews4U, 6 Nov 2026"
+}
