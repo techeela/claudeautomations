@@ -1,0 +1,16 @@
+{
+  "topic": "zee5-digital-ebitda",
+  "layout": "timeline",
+  "theme": "light",
+  "kicker": "OTT ECONOMICS  ·  ZEE DIGITAL, FIVE QUARTERS",
+  "headline": ["Zee's digital arm swings", "to ₹41.6 cr EBITDA"],
+  "events": [
+    {"when": "Q2 FY26 · Jul–Sep 2025", "text": "₹310.8 cr revenue, ₹31.2 cr EBITDA loss"},
+    {"when": "Q3 FY26", "text": "₹418 cr revenue, ₹56.4 cr EBITDA"},
+    {"when": "Q4 FY26", "text": "₹470 cr revenue, ₹8.4 cr EBITDA loss"},
+    {"when": "Q1 FY27", "text": "₹457.1 cr revenue, ₹4.4 cr EBITDA"},
+    {"when": "Q2 FY27 · Jul–Sep 2026", "text": "₹626 cr revenue (+101%), ₹41.6 cr EBITDA", "accent": true}
+  ],
+  "note": "Group ad revenue flat at ₹803 cr; subscription up 30%",
+  "source": "ZEEL Q2 FY27 results via Indian Television, Adgully, Multibagg (Oct 2026)"
+}
